@@ -1,0 +1,100 @@
+
+body {
+    margin: 20px;
+    background-color: #000032;
+    font-family: arial;
+    color: rgb(100, 100, 200);
+    text-align: center;
+    animation-name:cc;
+    animation-iteration-count: infinite;
+    animation-duration:10s;
+}
+html, body {margin: 0; height: 100%; overflow: hidden}
+.s{
+    transform: translateY(-50vh);
+    animation-iteration-count: 1;
+    animation-name: up;
+    animation-duration: 6s;
+}
+.info{
+    transform: translateY(-200vh);
+    animation-iteration-count:1;
+    animation-name: up3;
+    animation-duration: 40s;
+}
+.r1{
+    transform: translateY(-200vh);
+    animation-iteration-count: 1;
+    animation-name: up4;
+    animation-duration: 75s;
+}
+.r2{
+    transform:translateY(-200vh);
+    animation-iteration-count:1;
+    animation-name:up5;
+    animation-duration: 110s;
+}
+.r3{
+    transform:translateY(-200vh);
+    animation-iteration-count: 1;
+    animation-name:up6;
+    animation-duration:130s;
+}
+
+.end{
+    transform:translateY(-105vh);
+    animation-iteration-count:1;
+    animation-name:up8;
+    animation-duration:150s;
+}
+h1{
+    font-size:3vh;
+}
+@keyframes cc{
+0%{background-color:#000032}
+25%{background-color:rgb(83, 0, 147)}
+50%{background-color:darkslateblue}
+75%{background:rgb(0, 47, 89)}
+100%{background-color:#000032}
+}
+@keyframes up{
+    0%{transform:translateY(20vh)}
+    50%{transform:translateY(25vh)}
+    100%{transform:translateY(-50vh)}
+    
+}
+@keyframes up3{
+    0%{transform:translateY(140vh)}
+    10%{transform:translateY(140vh)}
+    13%{transform:translateY(-20vh)}
+    90%{transform:translateY(-20vh)}
+    100%{transform:translateY(-200vh)}
+}
+@keyframes up4{
+0%{transform:translateY(140vh)}
+45%{transform:translateY(140vh)}
+52%{transform:translateY(-70vh)}
+95%{transform:translateY(-70vh)}
+100%{transform:translateY(-300vh)}
+}
+@keyframes up5{
+    0%{transform:translateY(140vh)}
+    65%{transform:translateY(200vh)}
+68%{transform:translateY(-90vh)}
+    90%{transform:translateY(-90vh)}
+    100%{transform:translateY(-400vh)}
+}
+@keyframes up6{
+    0%{transform:translateY(140vh)}
+    70%{transform:translateY(200vh)}
+    80%{transform:translateY(-120vh)}
+    90%{transform:translateY(-120vh)}
+    100%{transform:translateY(-350vh)}
+}
+
+@keyframes up8{
+    0%{transform:translateY(140vh)}
+    80%{transform:translateY(140vh)}
+    85%{transform:translateY(-105vh)}
+    100%{transform:translateY(-105vh)}
+}
